@@ -284,6 +284,7 @@ class NetworkLoggerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Network Logs'),
         actions: <Widget>[
@@ -590,6 +591,7 @@ class NetworkLoggerEventScreen extends StatelessWidget {
       initialIndex: 0,
       length: showResponse ? 2 : 1,
       child: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text('Log Entry'),
           bottom: (bottom as PreferredSizeWidget?),
